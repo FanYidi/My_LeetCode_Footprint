@@ -9,6 +9,8 @@ const int m = 50;
 const int n = 100;
 
 int main(){
+    //来源：https://zhuanlan.zhihu.com/p/531939168
+
     //数组:一维/二维数组
     vector<int> v(n); //默认初始化为0
     v[5] = 1;
