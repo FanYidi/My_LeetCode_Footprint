@@ -9,25 +9,25 @@ const int m = 50;
 const int n = 100;
 
 int main(){
-    //数组:一维/二维数组
-    vector<int> v(n); //默认初始化为0
+    //����:һά/��ά����
+    vector<int> v(n); //Ĭ�ϳ�ʼ��Ϊ0
     v[5] = 1;
 
     vector<vector<int>>g(m,vector<int>(n));
     g[5][4] = 1;
-    cout<<"一维数组： "<<v[5]<<" 二维数组：  "<<g[5][4];
+    cout<<"һά���飺 "<<v[5]<<" ��ά���飺  "<<g[5][4];
 
-    //变长数组:一维/二维
-    vector<int> a; //默认初始化为0
-    a.push_back(1); //给数组末尾元素加1，数组长度加1
-    a.pop_back(); //删除末尾元素，数组长度-1，注意在数组不为空的情况下进行
-    a.empty(); //返回数组是否为空
-    a.size(); //返回数组中的元素个数
+    //�䳤����:һά/��ά
+    vector<int> a; //Ĭ�ϳ�ʼ��Ϊ0
+    a.push_back(1); //������ĩβԪ�ؼ�1�����鳤�ȼ�1
+    a.pop_back(); //ɾ��ĩβԪ�أ����鳤��-1��ע�������鲻Ϊ�յ�����½���
+    a.empty(); //���������Ƿ�Ϊ��
+    a.size(); //���������е�Ԫ�ظ���
 
     vector<vector<int>> adj(m);
     adj[0].push_back(1);
 
-    // 栈
+    // ջ
     stack<int> s;
     s.push(1);
     s.top();
@@ -35,7 +35,7 @@ int main(){
     s.empty();
     s.size();
 
-    //队列
+    //����
     queue<int> q;
     q.push(1);
     q.front();
@@ -43,14 +43,14 @@ int main(){
     q.empty();
     q.size();
 
-    //堆(优先队列)
-    //哈希表
-    //键值哈希表
-    //红黑树
-    //键值红黑树
-    //数学
-    //内存分配与回收
-    //万能头文件（408考试不建议使用，机试推荐使用）
+    //��(���ȶ���)
+    //��ϣ��
+    //��ֵ��ϣ��
+    //�����
+    //��ֵ�����
+    //��ѧ
+    //�ڴ���������
+    //����ͷ�ļ���408���Բ�����ʹ�ã������Ƽ�ʹ�ã�
 
     return 0;
 }
