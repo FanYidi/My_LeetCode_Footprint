@@ -17,7 +17,7 @@ int main(){
 
     vector<vector<int>>g(m,vector<int>(n));
     g[5][4] = 1;
-    cout<<"一维数组： "<<v[5]<<" 二维数组：  "<<g[5][4];
+    cout<<v[5]<<" "<<g[5][4];
 
     //变长数组:一维/二维
     vector<int> a; //默认初始化为0
