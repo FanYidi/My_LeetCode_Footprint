@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
+void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
     int index = m + n - 1;
     int aindex = m - 1;
     int bindex = n - 1;
@@ -18,7 +18,6 @@ int merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
     while(bindex >= 0) {
         nums1[index--] = nums2[bindex--];
     }
-    return 0;
 }
 
 int main(){
