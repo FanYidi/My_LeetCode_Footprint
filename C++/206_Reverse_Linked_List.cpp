@@ -21,6 +21,7 @@ ListNode *Reverse_List(LinkList head) {
 }
 //代码至此已完成了对Leetcode的Accept要求，以下是输入输出补充
 
+//由于Leetcode中无头节点，而本题实现习惯加入头节点，因此本题实现与Leetcode算法略有差异
 ListNode *Reverse_List_with_HeadNode(LinkList head) {
     ListNode *r, *p = head->next;
     head->next = NULL;
