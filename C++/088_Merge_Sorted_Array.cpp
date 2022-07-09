@@ -19,6 +19,7 @@ void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
         nums1[index--] = nums2[bindex--];
     }
 }
+//代码至此已完成了对Leetcode的Accept要求，以下是输入输出补充
 
 int main(){
     int m;
